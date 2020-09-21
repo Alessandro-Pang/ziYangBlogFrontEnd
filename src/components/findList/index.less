@@ -1,0 +1,39 @@
+.zy-find-list {
+  .zy-find-head {
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,
+        rgba(220, 220, 220, 8),
+        rgb(150, 150, 150),
+        rgba(220, 220, 220, 8),
+      );
+
+    .zy-find-title {
+      font-size: 50px;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: -1px -1px rgba(197, 223, 248, 0.8),
+        -2px -2px rgba(197, 223, 248, 0.8), -3px -3px rgba(197, 223, 248, 0.8),
+        -4px -4px rgba(197, 223, 248, 0.8), -5px -5px rgba(197, 223, 248, 0.8),
+        -6px -6px rgba(197, 223, 248, 0.8);
+      animation: text-entrance .8s ease-in-out;
+    }
+  }
+}
+
+@keyframes text-entrance {
+  from{
+    transform: scale(.3);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width:700px){
+  .zy-find-title{
+    font-size: 38px;
+  }
+}
