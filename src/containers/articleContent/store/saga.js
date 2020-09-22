@@ -1,16 +1,16 @@
 /*
  * @Author: your name
  * @Date: 2020-06-15 13:38:07
- * @LastEditTime: 2020-07-03 14:02:11
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-09-21 23:12:48
+ * @LastEditors: zi.yang
  * @Description: In User Settings Edit
- * @FilePath: \My-JavaScript-Study\React Study\day20\src\containers\articleContent\store\saga.js
+ * @FilePath: \ziYangBlogFrontEnd\src\containers\articleContent\store\saga.js
  */
 
 import { takeEvery, put, call } from "redux-saga/effects";
 import { GET_ARTICLE_INFO } from "./constants";
 import { article_info } from "./actionCreators";
-import { api} from "src/utils";
+import { api } from "src/utils";
 
 function* get_articleInfo(action) {
   try {

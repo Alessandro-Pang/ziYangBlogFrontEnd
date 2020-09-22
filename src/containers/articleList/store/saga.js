@@ -1,10 +1,10 @@
 /*
  * @Author: your name
  * @Date: 2020-06-15 13:38:07
- * @LastEditTime: 2020-07-03 14:02:37
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-09-21 23:52:32
+ * @LastEditors: zi.yang
  * @Description: In User Settings Edit
- * @FilePath: \My-JavaScript-Study\React Study\day20\src\containers\articleList\store\saga.js
+ * @FilePath: \ziYangBlogFrontEnd\src\containers\articleList\store\saga.js
  */
 
 import { takeEvery, put, call } from "redux-saga/effects";
